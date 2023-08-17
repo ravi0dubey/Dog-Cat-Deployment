@@ -22,10 +22,10 @@ class DogCat:
         print(result)
 
         if result[0] == 1:
-            prediction = 'Paani'
+            prediction = 'Dog'
             return [{ "image" : prediction}]
         else:
-            prediction = 'Hawa'
+            prediction = 'Cat'
             return [{ "image" : prediction}]
 
 
